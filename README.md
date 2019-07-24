@@ -20,6 +20,8 @@ class t_element:
 
 ![sample](https://raw.githubusercontent.com/frankovacevich/python_gedcom_to_html/master/tree_sample.png)
 
-I omitted couples and focues only on the parent-children relations. This is because I wanted a compact form of the tree (my family was large and it was the only way to fit all of it in an A4 paper). Some tweaks could be added to add spouses, though.
+The notebook python_gedcom_to_html_spouses allows also to print spouses on the html file. See the example below
+
+![sample](https://raw.githubusercontent.com/frankovacevich/python_gedcom_to_html/master/tree_sample_2.PNG)
 
 Hope you find it useful!
