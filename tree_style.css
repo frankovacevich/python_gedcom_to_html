@@ -1,6 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
 body, html{
 	margin: 0;
-	padding: 20px;
+	padding: 0;
+	background-color: gray;
+}
+
+.paper_sheet{
+	width: 190mm;
+	height: 277mm;
+	padding: 10mm;
+
 	background-color: white;
 }
 
@@ -11,19 +21,60 @@ body, html{
 .tree_element{
 	position: absolute;
 	padding-left: 1mm;
-	border-radius: 1.5mm;
+
+	border-radius: 1mm;
 	font-size: 11px;
-	font-family: 'Arial';
+	font-family: 'Open Sans', sans-serif;
+
 	overflow: hidden;
 	background-color: rgb(245, 245, 245);
+
+	box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+	
+}
+
+.spouse{
+	background-color: white;
+	border: solid 1px rgb(245, 245, 245);
+	margin-top: -0px;
+
+	box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+
+.extra_content{
+	color: gray;
+	font-size: 8px;
+	position: relative;
+	float: right;
+	margin-right: 4px;
+
+	display: block;
+	line-height: 8.5px;
+	margin-top: 1px;
+	display: block;
+
+	text-align: right;
+}
+
+.main_content{
+	display: inline-block;
+	width: 80%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
 }
 
 .hor_line{
 	border-top: 1px solid black;
-   	position: absolute;
+    position: absolute;
 }
 
 .ver_line{
 	border-left: 1px solid black;
-    	position: absolute;
+    position: absolute;
 }
