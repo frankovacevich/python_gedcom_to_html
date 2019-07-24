@@ -7,3 +7,4 @@ The code allows you to import a gedcom file and plot it easily as html. Below is
 
 Hope you find it useful!
 
+![sample](https://raw.githubusercontent.com/frankovacevich/python_gedcom_to_html/master/tree_sample.png)
