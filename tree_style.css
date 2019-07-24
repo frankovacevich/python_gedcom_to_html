@@ -1,13 +1,6 @@
 body, html{
 	margin: 0;
-	padding: 0;
-	background-color: gray;
-}
-
-.paper_sheet{
-	width: 200mm;
-	height: 287mm;
-	padding: 10mm;
+	padding: 20px;
 	background-color: white;
 }
 
