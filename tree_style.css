@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
-
 body, html{
 	margin: 0;
 	padding: 0;
@@ -10,7 +8,6 @@ body, html{
 	width: 200mm;
 	height: 287mm;
 	padding: 10mm;
-
 	background-color: white;
 }
 
@@ -21,46 +18,19 @@ body, html{
 .tree_element{
 	position: absolute;
 	padding-left: 1mm;
-
-
 	border-radius: 1.5mm;
 	font-size: 11px;
-	font-family: 'Open Sans', sans-serif;
-
+	font-family: 'Arial';
 	overflow: hidden;
 	background-color: rgb(245, 245, 245);
 }
 
-
-.extra_content{
-	color: gray;
-	font-size: 8px;
-	position: relative;
-	float: right;
-	margin-right: 4px;
-
-	display: block;
-	line-height: 10px;
-	margin-top: 1px;
-	display: block;
-
-	text-align: right;
-}
-
-.main_content{
-	display: inline-block;
-	width: 80%;
-	overflow: hidden;
-	text-overflow: ellipsis;
-	white-space: nowrap;
-}
-
 .hor_line{
 	border-top: 1px solid black;
-    position: absolute;
+   	position: absolute;
 }
 
 .ver_line{
 	border-left: 1px solid black;
-    position: absolute;
+    	position: absolute;
 }
